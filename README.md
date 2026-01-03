@@ -16,11 +16,16 @@
   
   . Total Articles: 2,225
   
-  . Categories (for validation only):
+  . Categories (for validation only): 
+  
       .Business
+      
       .Entertainment
+      
       .Politics
+      
       .Sport
+      
       .Tech
   
   Labels are **NOT** used during training — they are only used for evaluation.
