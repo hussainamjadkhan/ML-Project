@@ -86,37 +86,32 @@
 
 ### *Results Summary*
 
-Best Algorithm: K-Means
-
-Optimal Clusters: 9
-
-Silhouette Score: 0.0907
-
-Cluster Purity: 95%+ for most clusters
-
-**Key Insight:**
-
-The model discovered subtopics within traditional categories:
-
-Sports → motorsports, team sports, individual sports
-
-Entertainment → movies & music
-
-Business → economy & corporate finance
-
-This shows that natural topic structure is more fine-grained than human labels.
+  Best Algorithm: K-Means
+  
+  Optimal Clusters: 9
+  
+  Silhouette Score: 0.0907
+  
+  Cluster Purity: 95%+ for most clusters
+  
+  **Key Insight:**
+  
+  The model discovered subtopics within traditional categories:
+  
+  Sports → motorsports, team sports, individual sports
+  
+  Entertainment → movies & music
+  
+  Business → economy & corporate finance
+  
+  This shows that natural topic structure is more fine-grained than human labels.
 
 
 ### *Technologies Used*
-
-Python 3
-
-Jupyter Notebook
-
-pandas, numpy
-
-scikit-learn
-
-nltk
-
-matplotlib, seaborn
+  
+  1. Python 3
+  2. Jupyter Notebook
+  3. pandas, numpy
+  4. scikit-learn
+  5. nltk
+  6. matplotlib, seaborn
