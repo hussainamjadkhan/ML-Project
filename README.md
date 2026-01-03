@@ -1,8 +1,8 @@
-# ** Document Clustering of BBC News Articles **
+# Document Clustering of BBC News Articles
 
 ## Unsupervised Machine Learning Project
 
-### Project Overview
+### *Project Overview*
 
 This project applies unsupervised learning techniques to automatically group BBC news articles into meaningful topic clusters without using predefined labels.
 The goal is to discover natural topic structures in news data using text mining and clustering algorithms.
