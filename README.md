@@ -1,4 +1,4 @@
-# Document Clustering of BBC News Articles
+# ** Document Clustering of BBC News Articles **
 
 ## Unsupervised Machine Learning Project
 
