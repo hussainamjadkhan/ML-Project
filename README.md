@@ -35,58 +35,58 @@
 
   **The complete pipeline includes:**
 1. Text Preprocessing
-     
-  . Lowercasing
+         
+      . Lowercasing
+        
+      . Removing punctuation, numbers, URLs
+        
+      . Tokenization
+        
+      . Stopword removal
+        
+      . Lemmatization (NLTK)
     
-  . Removing punctuation, numbers, URLs
-    
-  . Tokenization
-    
-  . Stopword removal
-    
-  . Lemmatization (NLTK)
-
-  
-2. Feature Extraction
-
-  . TF-IDF Vectorization
-  
-  . Unigrams + Bigrams
-  
-  . Vocabulary size limited to 10,000
-
-  
-3. Dimensionality Reduction
-
-  . Latent Semantic Analysis (Truncated SVD)
-
-  . Reduced to 100 dimensions
-
       
-4. Clustering Algorithms
-  
-  . K-Means (k = 9 selected using Elbow Method)
-  
-  . Hierarchical Clustering (Ward linkage)
-  
-  . DBSCAN (tested, but unsuitable for this dataset)
-
-  
-5. Evaluation Metrics
-
-  . Silhouette Score
-  
-  . Davies–Bouldin Index
-  
-  . Calinski–Harabasz Score
-  
-  . Cluster Purity (vs true labels)
-
-  
-6. Visualization
+2. Feature Extraction
     
-  . t-SNE 2D projections for cluster visualization
-
+      . TF-IDF Vectorization
+      
+      . Unigrams + Bigrams
+      
+      . Vocabulary size limited to 10,000
+    
+      
+3. Dimensionality Reduction
+    
+      . Latent Semantic Analysis (Truncated SVD)
+    
+      . Reduced to 100 dimensions
+    
+          
+4. Clustering Algorithms
+      
+      . K-Means (k = 9 selected using Elbow Method)
+      
+      . Hierarchical Clustering (Ward linkage)
+      
+      . DBSCAN (tested, but unsuitable for this dataset)
+    
+      
+5. Evaluation Metrics
+    
+      . Silhouette Score
+      
+      . Davies–Bouldin Index
+      
+      . Calinski–Harabasz Score
+      
+      . Cluster Purity (vs true labels)
+    
+      
+6. Visualization
+        
+      . t-SNE 2D projections for cluster visualization
+    
 
 ### *Results Summary*
 
