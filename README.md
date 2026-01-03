@@ -9,6 +9,7 @@ The goal is to discover natural topic structures in news data using text mining 
 
 The project compares K-Means, Hierarchical Clustering, and DBSCAN, and evaluates their performance using multiple clustering metrics.
 
+
 ### Dataset
 
 Dataset: BBC News Articles
@@ -28,6 +29,7 @@ Sport
 Tech
 
 Labels are not used during training — they are only used for evaluation.
+
 
 ### Methodology
 
@@ -81,6 +83,7 @@ Visualization
 
 t-SNE 2D projections for cluster visualization
 
+
 ### Results Summary
 
 Best Algorithm: K-Means
@@ -102,6 +105,7 @@ Entertainment → movies & music
 Business → economy & corporate finance
 
 This shows that natural topic structure is more fine-grained than human labels.
+
 
 ### Technologies Used
 
