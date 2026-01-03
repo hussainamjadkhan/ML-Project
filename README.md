@@ -1,15 +1,15 @@
-Document Clustering of BBC News Articles
+# Document Clustering of BBC News Articles
 
-Unsupervised Machine Learning Project
+## Unsupervised Machine Learning Project
 
-Project Overview
+### Project Overview
 
 This project applies unsupervised learning techniques to automatically group BBC news articles into meaningful topic clusters without using predefined labels.
 The goal is to discover natural topic structures in news data using text mining and clustering algorithms.
 
 The project compares K-Means, Hierarchical Clustering, and DBSCAN, and evaluates their performance using multiple clustering metrics.
 
-Dataset
+### Dataset
 
 Dataset: BBC News Articles
 
@@ -29,7 +29,7 @@ Tech
 
 Labels are not used during training — they are only used for evaluation.
 
-⚙️ Methodology
+### Methodology
 
 The complete pipeline includes:
 
@@ -81,7 +81,7 @@ Visualization
 
 t-SNE 2D projections for cluster visualization
 
-Results Summary
+### Results Summary
 
 Best Algorithm: K-Means
 
@@ -103,7 +103,7 @@ Business → economy & corporate finance
 
 This shows that natural topic structure is more fine-grained than human labels.
 
-Technologies Used
+### Technologies Used
 
 Python 3
 
