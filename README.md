@@ -18,15 +18,15 @@
   
 . Categories (for validation only): 
   
-   .Business
+   . Business
    
-   .Entertainment
+   . Entertainment
    
-   .Politics
+   . Politics
 
-   .Sport
+   . Sport
    
-   .Tech
+   . Tech
   
   Labels are **NOT** used during training — they are only used for evaluation.
 
