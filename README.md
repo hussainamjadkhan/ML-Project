@@ -35,49 +35,74 @@
 
   **The complete pipeline includes:**
   1. Text Preprocessing
-    . Lowercasing
-    . Removing punctuation, numbers, URLs
-    . Tokenization
-    . Stopword removal
-    . Lemmatization (NLTK)
+     
+  . Lowercasing
+    
+  . Removing punctuation, numbers, URLs
+    
+  . Tokenization
+    
+  . Stopword removal
+    
+  . Lemmatization (NLTK)
   
-  2. Feature Extraction
-    . TF-IDF Vectorization
-    . Unigrams + Bigrams
-    . Vocabulary size limited to 10,000
+  3. Feature Extraction
+
+  . TF-IDF Vectorization
   
-  3. Dimensionality Reduction
-    . Latent Semantic Analysis (Truncated SVD)
-    . Reduced to 100 dimensions
+  . Unigrams + Bigrams
   
-  4. Clustering Algorithms
-    . K-Means (k = 9 selected using Elbow Method)
-    . Hierarchical Clustering (Ward linkage)
-    . DBSCAN (tested, but unsuitable for this dataset)
+  . Vocabulary size limited to 10,000
   
-  5. Evaluation Metrics
-    . Silhouette Score
-    . Davies–Bouldin Index
-    . Calinski–Harabasz Score
-    . Cluster Purity (vs true labels)
+  5. Dimensionality Reduction
+
+  . Latent Semantic Analysis (Truncated SVD)
+
+  . Reduced to 100 dimensions
+      
+  7. Clustering Algorithms
   
-  6. Visualization
-    . t-SNE 2D projections for cluster visualization
+  . K-Means (k = 9 selected using Elbow Method)
+  
+  . Hierarchical Clustering (Ward linkage)
+  
+  . DBSCAN (tested, but unsuitable for this dataset)
+  
+  8. Evaluation Metrics
+
+  . Silhouette Score
+  
+  . Davies–Bouldin Index
+  
+  . Calinski–Harabasz Score
+  
+  . Cluster Purity (vs true labels)
+  
+  10. Visualization
+    
+  . t-SNE 2D projections for cluster visualization
 
 
 ### *Results Summary*
 
   . Best Algorithm: K-Means
+  
   . Optimal Clusters: 9
+  
   . Silhouette Score: 0.0907
+  
   . Cluster Purity: 95%+ for most clusters
   
   **Key Insight:**
   
   . The model discovered subtopics within traditional categories:
+  
   . Sports → motorsports, team sports, individual sports
+  
   . Entertainment → movies & music
+  
   . Business → economy & corporate finance
+  
   . This shows that natural topic structure is more fine-grained than human labels.
 
 
