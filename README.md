@@ -119,3 +119,15 @@
   4. scikit-learn
   5. nltk
   6. matplotlib, seaborn
+
+
+### *Project Structure*
+
+Document-Clustering/
+│
+├── Document_Clustering.ipynb
+├── bbc_data.csv
+├── ML-PROJECTREPORT.pdf
+├── README.md
+└── requirements.txt
+
