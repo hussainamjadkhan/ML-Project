@@ -45,6 +45,7 @@
   . Stopword removal
     
   . Lemmatization (NLTK)
+
   
 2. Feature Extraction
 
@@ -53,12 +54,14 @@
   . Unigrams + Bigrams
   
   . Vocabulary size limited to 10,000
+
   
 3. Dimensionality Reduction
 
   . Latent Semantic Analysis (Truncated SVD)
 
   . Reduced to 100 dimensions
+
       
 4. Clustering Algorithms
   
@@ -67,6 +70,7 @@
   . Hierarchical Clustering (Ward linkage)
   
   . DBSCAN (tested, but unsuitable for this dataset)
+
   
 5. Evaluation Metrics
 
@@ -77,6 +81,7 @@
   . Calinski–Harabasz Score
   
   . Cluster Purity (vs true labels)
+
   
 6. Visualization
     
