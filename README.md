@@ -34,7 +34,7 @@
 ### *Methodology*
 
   **The complete pipeline includes:**
-  1. Text Preprocessing
+1. Text Preprocessing
      
   . Lowercasing
     
@@ -46,7 +46,7 @@
     
   . Lemmatization (NLTK)
   
-  3. Feature Extraction
+2. Feature Extraction
 
   . TF-IDF Vectorization
   
@@ -54,13 +54,13 @@
   
   . Vocabulary size limited to 10,000
   
-  5. Dimensionality Reduction
+3. Dimensionality Reduction
 
   . Latent Semantic Analysis (Truncated SVD)
 
   . Reduced to 100 dimensions
       
-  7. Clustering Algorithms
+4. Clustering Algorithms
   
   . K-Means (k = 9 selected using Elbow Method)
   
@@ -68,7 +68,7 @@
   
   . DBSCAN (tested, but unsuitable for this dataset)
   
-  8. Evaluation Metrics
+5. Evaluation Metrics
 
   . Silhouette Score
   
@@ -78,7 +78,7 @@
   
   . Cluster Purity (vs true labels)
   
-  10. Visualization
+6. Visualization
     
   . t-SNE 2D projections for cluster visualization
 
