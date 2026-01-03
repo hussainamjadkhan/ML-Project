@@ -4,16 +4,18 @@
 
 ### *Project Overview*
 
-  This project applies unsupervised learning techniques to automatically group BBC news articles   into meaningful topic clusters without using predefined labels.
-  The goal is to discover natural topic structures in news data using text mining and clustering   algorithms.
+  This project applies unsupervised learning techniques to automatically group BBC news articles into meaningful topic clusters without using predefined labels.
+  The goal is to discover natural topic structures in news data using text mining and clustering algorithms.
   
-  The project compares K-Means, Hierarchical Clustering, and DBSCAN, and evaluates their           performance using multiple clustering metrics.
+  The project compares K-Means, Hierarchical Clustering, and DBSCAN, and evaluates their performance using multiple clustering metrics.
 
 
 ### *Dataset*
 
   . Dataset: BBC News Articles
+  
   . Total Articles: 2,225
+  
   . Categories (for validation only):
       .Business
       .Entertainment
